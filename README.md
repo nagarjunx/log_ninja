@@ -47,8 +47,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/nagarjunx/log_ninja.git
-   cd log_ninja
+   git clone https://github.com/nagarjunx/logninja.git
+   cd logninja
    ```
 
 2. **Install dependencies:**

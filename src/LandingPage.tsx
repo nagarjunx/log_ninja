@@ -36,7 +36,7 @@ export function LandingPage({ onFilesSelected, isParsing, parseProgress, onDrop,
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-[var(--color-outline)]">
           <a href="#features" className="hover:text-[var(--color-on-surface)] transition-colors">Features</a>
           <a href="#privacy" className="hover:text-[var(--color-on-surface)] transition-colors">Privacy</a>
-          <a href="https://github.com/nagarjunx/log_ninja" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-on-surface)] transition-colors">GitHub</a>
+          <a href="https://github.com/nagarjunx/logninja" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-on-surface)] transition-colors">GitHub</a>
         </nav>
         <div className="flex items-center gap-4">
           <button onClick={toggleTheme} className="p-2 rounded-full hover:bg-[var(--color-surface-container-high)] text-[var(--color-outline)] hover:text-[var(--color-on-surface)] transition-colors cursor-pointer">
@@ -248,7 +248,7 @@ export function LandingPage({ onFilesSelected, isParsing, parseProgress, onDrop,
               <span className="text-base font-bold tracking-tight">LogNinja</span>
             </div>
             <div className="w-[1px] h-4 bg-[var(--color-outline-variant)]/30"></div>
-            <a href="https://github.com/nagarjunx/log_ninja" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-[var(--color-outline)] hover:text-[var(--color-on-surface)] transition-colors">
+            <a href="https://github.com/nagarjunx/logninja" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-[var(--color-outline)] hover:text-[var(--color-on-surface)] transition-colors">
               <Github className="w-4 h-4" />
               <span className="font-medium">GitHub</span>
             </a>
