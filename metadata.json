@@ -1,0 +1,5 @@
+{
+  "name": "LogNinja",
+  "description": "A fully client-side log parser and analyzer with charts, insights, and regex search.",
+  "requestFramePermissions": []
+}

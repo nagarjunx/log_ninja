@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-surface: var(--surface);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-bright: var(--surface-bright);
+  
+  --color-primary-dim: var(--primary-dim);
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-primary-fixed-dim: var(--primary-fixed-dim);
+  --color-primary-container: var(--primary-container);
+  --color-on-primary-container: var(--on-primary-container);
+  
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+  
+  --color-tertiary: var(--tertiary);
+  --color-error: var(--error);
+  --color-error-container: var(--error-container);
+  --color-warning: var(--warning);
+  
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+}
+
+:root {
+  --surface: #ffffff;
+  --surface-container-low: #f8f9fa;
+  --surface-container: #f1f3f5;
+  --surface-container-high: #e9ecef;
+  --surface-bright: #dee2e6;
+  
+  --primary-dim: #6741d9;
+  --primary: #845ef7;
+  --on-primary: #ffffff;
+  --primary-fixed-dim: #7950f2;
+  --primary-container: #b197fc;
+  --on-primary-container: #1a1823;
+  
+  --outline: #868e96;
+  --outline-variant: #ced4da;
+  
+  --tertiary: #0ca678;
+  --error: #e03131;
+  --error-container: #ffc9c9;
+  --warning: #f59e0b;
+  
+  --on-surface: #212529;
+  --on-surface-variant: #495057;
+}
+
+.dark {
+  --surface: #0e0d16;
+  --surface-container-low: #13121c;
+  --surface-container: #1a1823;
+  --surface-container-high: #201e2a;
+  --surface-bright: #2c2a39;
+  
+  --primary-dim: #8455ef;
+  --primary: #ba9eff;
+  --on-primary: #1a1823;
+  --primary-fixed-dim: #a27cff;
+  --primary-container: #ae8dff;
+  --on-primary-container: #1a1823;
+  
+  --outline: #777480;
+  --outline-variant: #484751;
+  
+  --tertiary: #9bffce;
+  --error: #ff6e84;
+  --error-container: #a70138;
+  --warning: #f59e0b;
+  
+  --on-surface: #f3effc;
+  --on-surface-variant: #c3bfcc;
+}
+
+body {
+  font-family: var(--font-sans);
+}
